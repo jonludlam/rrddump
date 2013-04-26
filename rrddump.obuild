@@ -1,0 +1,13 @@
+Name:        rrddump
+Version:     0.2
+Synopsis:    RRD file dumper
+Authors:     Citrix
+License:     LGPL-2.1 with OCaml linking exception
+obuild-ver:  1
+
+Executable            rrddump
+  Path:               .
+  MainIs:             rrddump.ml
+  pp: camlp4o
+  BuildDepends:       stdext, xmlm, rpclib.syntax, rpclib
+
